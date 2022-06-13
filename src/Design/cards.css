@@ -1,0 +1,28 @@
+.card-container{
+    display: flex;
+    gap: 10px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+.card-container2{
+    display: flex;
+    gap: 10px;
+    width: 70%;
+    margin: 0 auto;
+    
+}
+.c-cntrr{
+    margin-top: 5px;
+}
+
+
+@media screen and (max-width: 380px) {
+   .card-container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+} 

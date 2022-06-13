@@ -1,0 +1,86 @@
+
+footer {
+  background-color: #f2f3f7;
+  font-size: 15px;
+  padding: 20px 0px 50px 0px;
+
+}
+.footer-container {
+  width: 85%;
+  margin: auto;
+}
+
+.footer-one {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-logo > img {
+  width: 90%;
+  height: 90px;
+  object-fit: contain;
+}
+.footer-logo > div {
+  margin: 5px 0px;
+  font-size: 12px;
+}
+.footer-handles {
+  margin: 20px 0px;
+}
+.footer-handles > div {
+  margin: 15px 10px;
+  font-size: 13px;
+}
+.footer-handles > span {
+  margin: 15px 10px;
+}
+.footer-heading {
+  font-size: 16px;
+  font-weight: 550;
+  margin: 15px 0px;
+}
+.footer-link {
+  margin: 10px;
+}
+.footer-two {
+  padding-top: 10px;
+  border-top: 4px solid rgba(20, 65, 245, 0.85);
+}
+.footer-two {
+  text-align: center;
+}
+.text p{
+    font-size: 14px;
+}
+.footer-link:hover{
+ color: #3da0f2;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 850px) {
+  .footer-sub3,
+  .footer-sub4 {
+    display: none;
+  }
+  .text p{
+    font-size: 12px;
+    text-align: center;
+}
+.footer-logo > img {
+  width: 70%;
+  height: 70px;
+  padding-left: 80px;
+}
+.footer-two{
+  border-top: 4px solid rgba(239, 207, 44, 0.85);
+}
+
+}
+@media screen and (max-width: 800px) {
+
+}
+@media screen and (max-width: 600px) {
+  .footer-sub2 {
+    display: none;
+  }
+
+}
